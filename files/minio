@@ -1,7 +1,7 @@
 # Volume to be used for MinIO server.
-MINIO_VOLUMES="/minio_data"
+MINIO_VOLUMES="/minio_data/disk1 /minio_data/disk2 /minio_data/disk3 /minio_data/disk4"
 # Use if you want to run MinIO on a custom port.
-MINIO_OPTS="--address :443 --certs-dir /usr/local/etc/minio"
+MINIO_OPTS="--address :443 --certs-dir /usr/local/etc/miniossl -l"
 # Access Key of the server, ex:wayminio
 MINIO_ACCESS_KEY=wayminio
 # Secret key of the server. THIS NEEDS TO CHANGE PER CLIENT!
