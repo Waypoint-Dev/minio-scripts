@@ -31,7 +31,7 @@
     - Patch to latest releases
     ```
     sudo apt-get update
-    sudo apt-get ugprade
+    sudo apt-get upgrade
    ```
 2. Install any required utilities 
     ```
