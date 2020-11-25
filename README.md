@@ -41,10 +41,10 @@
 3. Download all of our required files or configs
     ```
     cd ~
-   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/files/minio )
-   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/files/minio.service )
-   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/files/openssl.conf )
-   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/files/00-installer-config.yaml )
+   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/master/files/minio )
+   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/master/files/minio.service )
+   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/master/files/openssl.conf )
+   ( cd ~/; curl -O https://raw.githubusercontent.com/Waypoint-Dev/minio-scripts/master/files/00-installer-config.yaml )
    wget https://dl.minio.io/server/minio/release/linux-amd64/minio
    wget https://dl.minio.io/client/mc/release/linux-amd64/mc
    ```
